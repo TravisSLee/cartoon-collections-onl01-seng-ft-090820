@@ -32,5 +32,6 @@ def find_the_cheese(foods) # code an argument here
       return cheese_types[i] 
     else
      i += 1
+   end
   end
 end
