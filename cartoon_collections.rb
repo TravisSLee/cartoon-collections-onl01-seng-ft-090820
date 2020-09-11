@@ -28,7 +28,9 @@ def find_the_cheese(foods) # code an argument here
   i = 0
   cheese_types = ["cheddar", "gouda", "camembert"]
   while i < cheese_types.length
-    return cheese_types[i] if foods.include?(cheese_types[i])
-    i += 1
+    if foods.include?(cheese_types[i])
+      return cheese_types[i] 
+    else
+     i += 1
   end
 end
