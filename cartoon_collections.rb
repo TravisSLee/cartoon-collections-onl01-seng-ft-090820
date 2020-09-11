@@ -11,7 +11,9 @@ def summon_captain_planet(elements)# code an argument here
   # Your code here
   rolecall = []
   elements.map do |element|
-    rolecall.push(element[1].)
+    rolecall.push(element.capitalize())
+  end
+  rolecall
 end
 
 def long_planeteer_calls# code an argument here
