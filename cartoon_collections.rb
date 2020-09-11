@@ -11,7 +11,8 @@ def summon_captain_planet(elements)# code an argument here
   # Your code here
   rolecall = []
   elements.map do |element|
-    rolecall.push(element.capitalize() && element.join("!"))
+    rolecall.push(element.capitalize())
+    rolecall.push(element.join("!"))
   end
   rolecall
 end
